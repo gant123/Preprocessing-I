@@ -223,3 +223,21 @@ ul li {
   border: 1px solid #ddd;
   padding: 8px;
 }
+@media (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    width: 500px;
+  }
+  .nav-bar nav {
+    flex-direction: column;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  .nav-bar nav a {
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

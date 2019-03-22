@@ -158,3 +158,26 @@ ul li {
 	border: 1px solid #ddd;
   padding: 8px;
 }
+
+@media(max-width:500px) {
+	.container {
+		margin: @autoMargin;
+		width: 500px;
+		}
+		.nav-bar nav {
+			flex-direction: column;
+			border: 1px solid #ddd;
+			width: 100%;
+			 a {
+				border: 1px solid red;
+				padding:10px;
+				display: @flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.top-content {
+				
+			}
+		}
+
+}
